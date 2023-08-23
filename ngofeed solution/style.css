@@ -1,0 +1,588 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://ngofeed.com/solution/wp-content/uploads/2023/02/children-306607.jpg);
+    background-position: bottom;
+    background-size: cover;
+    border-bottom-right-radius: 150px;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 111px;
+    margin-top: 26px;
+}
+
+.btn {
+    margin-top: 26px;
+    margin-right: 111px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    border-style: solid;
+    color: #eeeeee;
+    border-color: #163e73;
+    background-color: #163e73;
+    border-radius: 6px;
+    padding-top: 17px;
+    padding-right: 24px;
+    padding-bottom: 17px;
+    padding-left: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1em;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    width: 50%;
+    color: #eeeeee;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 120px;
+}
+
+.header-content h1 {
+    font-size: 62px;
+    align-items: start;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-content p {
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+}
+
+.but-two {
+    margin-top: 30px;
+}
+
+.header-form {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    padding-right: 110px;
+}
+
+.form {
+    background-color: #eeeeee;
+    padding-top: 0%;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 104px 104px -40px rgba(0, 0, 0, 0.16);
+}
+
+.form h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: arial;
+}
+
+.form p {
+    font-size: 16px;
+    font-family: arial;
+}
+
+.name {
+    border-radius: 6px;
+}
+
+#name {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 80px;
+    font-size: 17.5px;
+    font-family: arial;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+#email {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 80px;
+    font-size: 17.5px;
+    font-family: arial;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+#phone {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 80px;
+    font-size: 17.5px;
+    font-family: arial;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+.services {
+    padding-bottom: 10px;
+}
+
+#Select-Services {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 80px;
+    font-size: 17.5px;
+    width: 480px;
+    height: 37px;
+    font-family: arial;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+.button-two {
+    border-style: solid;
+    color: #eeeeee;
+    border-color: #163e73;
+    background-color: #163e73;
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-right: 210px;
+    padding-bottom: 10px;
+    padding-left: 210px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1em;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.About {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.About h1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.About p {
+    text-align: start;
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(94, 85, 85);
+    word-spacing: 5px;
+    line-height: 25px;
+}
+
+.btn-three {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: 30px;
+}
+
+.button-three {
+    border-style: solid;
+    color: #eeeeee;
+    border-color: #163e73;
+    background-color: #163e73;
+    border-radius: 6px;
+    padding-top: 17px;
+    padding-right: 24px;
+    padding-bottom: 17px;
+    padding-left: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1em;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 30px;
+}
+
+.Work-box {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 115px;
+    margin-right: 120px;
+    line-height: 25px;
+}
+
+.Work-box h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+.Work-box p {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.box {
+    box-shadow: 0 0 0em rgb(0 0 0 / 10%), 0 0 0px 0px rgb(255 255 255), 0.3em 0.3em 20em rgb(0 0 0 / 30%);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 40px;
+}
+
+.clock {
+    background: lightblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+}
+
+.user {
+    background: lightblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speedmeter {
+    background: lightblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Reputation {
+    margin-top: 150px;
+    margin-left: 125px;
+    display: flex;
+    align-items: center;
+    background-color: var( --e-global-color-astglobalcolor0);
+}
+
+.Reputation img {
+    width: 396px;
+    height: 594px;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 16px 40px 80px -32px rgb(0 0 0 / 50%);
+}
+
+.bgc {
+    background-color: #163e73;
+    margin-top: 60px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+.Reputation-content {
+    margin-left: 150px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    margin-right: 100px;
+    font-weight: 400;
+}
+
+.Reputation-content h1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.Reputation-content h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white
+}
+
+.Reputation-content p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    word-spacing: 5px;
+    color: white;
+}
+
+.our-services {
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 5px;
+    line-height: 25px;
+    background-image: url(https://ngofeed.com/solution/wp-content/uploads/2020/06/bg-blob-gradient.svg);
+    background-size: cover;
+}
+
+.our-services h1 {
+    padding-top: 10px;
+}
+
+.our-services h2 {
+    padding-top: 30px;
+}
+
+.our-services p {
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.technology {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 115px;
+}
+
+.technology-content {
+    text-align: justify;
+    margin-top: 30px;
+    margin-right: 100px;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+
+.technology-content p {
+    padding-top: 20px;
+}
+
+.technologr-img img {
+    width: 544px;
+    height: 614px;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 16px 40px 80px -32px rgb(0 0 0 / 50%);
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        margin-left: 50px;
+    }
+    .btn {
+        margin-right: 50px;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-content {
+        margin-top: 110px;
+        width: 650px;
+    }
+    .header-content p {
+        font-size: 24px;
+        line-height: 32px;
+        word-spacing: 2px;
+    }
+    .header-form {
+        margin-top: 50px;
+        margin-left: 245px;
+    }
+    .form {
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 10px;
+    }
+    .About {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .About p {
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 20px;
+        line-height: 30px;
+        word-spacing: 5px;
+    }
+    .Work-box {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .Reputation {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Reputation img {
+        width: 100%;
+        height: 100%;
+    }
+    .our-services {
+        margin-left: 0px;
+        margin-right: 00px;
+    }
+    .technology {
+        display: flex;
+        flex-direction: column;
+        margin-left: 90px;
+        margin-right: 80px;
+    }
+    .technology-content {
+        margin-right: 0px;
+    }
+    .technologr-img {
+        width: 100%;
+        height: 100%;
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width:425px) and (min-width: 320px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    .logo {
+        margin-left: 50px;
+    }
+    .btn {
+        margin-right: 50px;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-content {
+        margin-top: 110px;
+        width: 550px;
+        margin-left: 169px;
+    }
+    .header-content p {
+        font-size: 24px;
+        line-height: 32px;
+        word-spacing: 2px;
+    }
+    .header-form {
+        display: none;
+        margin-top: 50px;
+        margin-left: 245px;
+    }
+    .form {
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 10px;
+    }
+    .About {
+        margin-left: -50px;
+        margin-right: -280px;
+    }
+    .About h1 {
+        padding: 0px;
+        margin-left: 100px;
+    }
+    .About p {
+        margin-left: 56px;
+        margin-right: -218px;
+        font-size: 30px;
+        line-height: 50px;
+        padding: 0px;
+        word-spacing: 5px
+    }
+    .Work-box {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .Reputation {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Reputation img {
+        width: 100%;
+        height: 100%;
+    }
+    .bgc {
+        padding-left: 58px;
+        padding-right: 100px;
+        margin-left: 165px;
+    }
+    .our-services {
+        margin-left: 0px;
+        margin-right: 00px;
+    }
+    .technology {
+        display: flex;
+        flex-direction: column;
+        margin-left: 90px;
+        margin-right: 80px;
+    }
+    .technology-content {
+        margin-right: 0px;
+    }
+    .technologr-img {
+        width: 100%;
+        height: 100%;
+        margin-top: 100px;
+        margin-left: -60px;
+    }
+}
